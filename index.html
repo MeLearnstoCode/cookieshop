@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Cook-ie It!</title>
+	 	<link rel="stylesheet" type="text/css" href="style.css">	
+	</head>
+	
+	<body>
+		<div class = 'container'>
+
+		<div class = 'welcome'>
+			
+			<img src='images.png'><p> Eat a cookie!<br>
+			Click on a cookie you like and Cookie Monster will tell you how many you ate you lil monster!!
+			</p>
+		</div>
+
+		<div class = 'food'>
+			
+			<div data-flavor ="sugar"> 
+			<img class='cookie' src = 'images.jpg'><br>
+			<span class="count"></span>
+      		<span class="clear">(clear)</span>
+			
+			<!-- How Many? <input id='sugarinput' type = 'text'>
+			<input   id='sugarentry' type = 'submit'> -->
+			
+			</div>
+
+			<div data-flavor = 'chocolate'>
+			<img class = 'cookie' src = 'images-3.jpg'><br>
+			<span class="count"></span>
+      		<span class="clear">(clear)</span>		<!-- 	How Many? <input id = 'chocinput' type = 'text'>
+			<input id= 'chocentry'type = 'submit'> -->
+			</div>
+
+			<div data-flavor = 'lemon'> 
+			<img class = 'cookie' src = 'images-2.jpg'><br>
+			<span class="count"></span>
+      		<span class="clear">(clear)</span>
+			
+			<!-- How Many? <input id='lemoninput' type = 'text'>
+			<input id='lemonentry' type = 'submit'> -->
+			</div>
+
+		</div>
+		</div>
+
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src='cookies.js'></script>
+		
+		<script src='script.js'></script>
+	</body>
+
+</html>
